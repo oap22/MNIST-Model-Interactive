@@ -130,7 +130,7 @@ class DigitDrawingApp:
             widget.destroy()
 
         # Create bar chart for probabilities
-        fig, ax = plt.subplots(figsize=(8, 3))
+        fig, ax = plt.subplots(figsize=(8, 4))
         digits = range(10)
         bars = ax.bar(digits, probabilities * 100, color='steelblue')
 
